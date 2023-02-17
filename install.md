@@ -18,7 +18,7 @@ If you are running a ubuntu Server version is necessary to install also a XServe
 Is possibile install `XVFB` a virtual framebuffer X server for X Version 11 and run it.
 
 ```bash
-sudo apt intall -y xvfb
+sudo apt install -y xvfb
 
 sudo Xvfb :99 -screen 0 640x480x24 -nolisten tcp &
 export DISPLAY=:99
